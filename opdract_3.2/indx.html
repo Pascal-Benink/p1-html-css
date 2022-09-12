@@ -9,15 +9,26 @@
 </head>
 <body>
     <form action="">
-        E-mail <input type="email" name="" id=""> <br>
-        Voornaam: <input type="text"> <br>
-        Achternaam: <input type="text"> <br>
-        Password: <input type="password"> <br>
-        Geslacht <input type="radio" name="" id=""> <br>
-        Datum vertrek <input type="date" name="" id=""> <br>
-        Datum aankomst <input type="date" name="" id=""> <br>
-        Postcode: <input type="text"> <br>
-        Aantal reisgenoten <input type="number" name="" id=""> <br>
+        <label for="email">e-mail</label> <input type="email" required name="email" id=""> <br>
+        <label for="voornaam">Voornaam</label>
+        <input type="text" required name="voornaam"> <br>
+        <label for="achternaam">achternaam</label>
+        <input type="text" name="achternaam"> <br>
+        <label for="password">Password</label>
+        <input type="password" name="password"> <br>
+        <label for="m">Man</label>
+        <input type="radio" name="geslacht" id="m" value="m"> <br>
+        <label for="v">Vrouw</label>
+        <input type="radio" name="geslacht" id="v" value="v"> <br>
+        <label for="o">Anders</label>
+        <input type="radio" name="geslacht" id="o" value="o"> <br>
+        <label for="startdate">Startdatum</label>
+        <input type="date" name="startdate" id=""> <br>
+        <label for="enddate">Einddatum</label>
+        <input type="date" name="enddate" id=""> <br>
+        <label for="age">Leeftijd</label>
+        <input type="number" name="age" id="" min="0" max="4" step="1"> <br>
+        <input type="">
         
 
         <input type="submit" value="Boek nu">
