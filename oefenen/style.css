@@ -1,3 +1,5 @@
+
+
 body {
     width: 80%;
     margin: 4px auto;
@@ -8,3 +10,9 @@ section {
     margin: 4px auto
 }
 
+h2 {
+    color: blue;
+}
+.one {
+    color: red;
+}
