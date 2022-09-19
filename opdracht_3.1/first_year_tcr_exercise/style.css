@@ -37,3 +37,12 @@ nav a {
 nav img {
   width: 5vw;
 }
+body {
+  font-family: 'Goldman', cursive;
+}
+header {
+  background-image: url("./img/005.png");
+  width: 100%;
+  height: 100%;
+  color: white;
+}
