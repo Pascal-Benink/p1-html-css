@@ -26,5 +26,6 @@ a {
     text-decoration: none;
 }
 header {
-
+    background-image: url(./img/steam.jpg);
+    background-repeat: no-repeat;
 }

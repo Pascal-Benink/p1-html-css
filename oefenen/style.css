@@ -18,3 +18,12 @@ h2 {
 .one {
     color: red;
 }
+.border {
+    border: 2px double red;
+}
+.bordertwo {
+    border-width: 10px 2px 3px 4px; /*per zijde kan je aanpassen*/
+    border-style: solid double;
+    border-color: aquamarine;
+    border-radius: 30% 100% 20% 1%;
+}
