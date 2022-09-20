@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+html {
+    font-size: 62,5%;
+}
 h1 {
     font-size: 24px;
     color: blue;
@@ -25,7 +28,6 @@ p {
 .one {
     font-weight: bold;
     color: red;
-    font-size: 3.3vh;
 }
 a {
     color: #8A2BE2;
@@ -40,7 +42,6 @@ header {
 }
 .header {
     color: red;
-    font-size: 6.6vh
 }
 img {
     max-width: 50%;
