@@ -51,6 +51,7 @@ header {
   text-align: center;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 h2 {
   font-weight: 900;
@@ -60,4 +61,7 @@ footer {
   text-align: center;
   font-size: 500%;
   color: white;
+}
+section {
+  size: 100vh;
 }
