@@ -49,6 +49,9 @@ header {
   color: white;
   font-size: 250%;
   text-align: center;
+  background-position: center;
+  background-size: ;
+  background-repeat: no-repeat;
 }
 h2 {
   font-weight: 900;
