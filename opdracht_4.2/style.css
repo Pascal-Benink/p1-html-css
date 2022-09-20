@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1 {
     font-size: 24px;
     color: blue;
@@ -28,4 +32,6 @@ a {
 header {
     background-image: url(./img/steam.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    font-size: 3.3vh;
 }
