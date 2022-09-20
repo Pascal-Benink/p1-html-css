@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    font-size: 62.5%;
+}
 body {
     font-family: 'Roboto', sans-serif;
     width: 80%;
@@ -47,4 +49,9 @@ h2 {
     color: aliceblue;
     background-repeat: no-repeat;
 }
-
+.test {
+    font-size: 150%;
+}
+.test2 {
+    font-size: 150%;
+}
