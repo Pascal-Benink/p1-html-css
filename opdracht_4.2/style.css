@@ -47,8 +47,7 @@ header {
     font-size: 3rem;
 }
 img {
-    max-width: 50%;
-    min-width: 50%;
+    width: 50vw;
 }
 article {
     border-style: solid;
