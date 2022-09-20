@@ -28,6 +28,7 @@ p {
 .one {
     font-weight: bold;
     color: red;
+    font-size: 2.25rem;
 }
 a {
     color: #8A2BE2;
@@ -38,10 +39,12 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    size: 33vh
+    size: 33vh;
+    height: 40vh;
 }
 .header {
     color: red;
+    font-size: 3rem;
 }
 img {
     max-width: 50%;
