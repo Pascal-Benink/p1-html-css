@@ -8,48 +8,43 @@
 </head>
 <body>
     <form action="">
-        <label for="email">Email</label> <input type="email"  name="email" id=""> <br>
+        <label for="email">Email</label> 
+        <input type="email"  id="email" > <br>
         <label for="voornaam">Voornaam</label>
-        <input type="text"  name="voornaam"> <br>
+        <input type="text"  id="voornaam"> <br>
         <label for="achternaam">Achternaam</label>
-        <input type="text" name="achternaam"> <br>
+        <input type="text" id="achternaam"> <br>
         <label for="password">Password</label>
-        <input type="password" name="password"> <br>
+        <input type="password" id="password"> <br>
         <label for="m">Man</label>
-        <input type="radio" name="geslacht" id="m" value="m" checked> <br>
+        <input type="radio" name="geslacht" id="m" value="man" checked> <br>
         <label for="v">Vrouw</label>
-        <input type="radio" name="geslacht" id="v" value="v"> <br>
+        <input type="radio" name="geslacht" id="v" value="vrouw"> <br>
         <label for="o">Anders</label>
-        <input type="radio" name="geslacht" id="o" value="o"> <br>
+        <input type="radio" name="geslacht" id="o" value="anders"> <br>
         <label for="startdate">Startdatum</label>
-        <input type="date" name="startdate" id="" min="2022-09-13"> <br>
+        <input type="date" name="startdate" id="start" min="2022-09-13"> <br>
         <label for="enddate">Einddatum</label>
-        <input type="date" name="enddate" id="" min="2022-09-13"> <br>
+        <input type="date" name="enddate" id="end" min="2022-09-13"> <br>
         <label for="age">Leeftijd</label>
-        <input type="number" name="age" id="" min="0" max="4" step="1"> <br>
+        <input type="number" name="age" id="age" min="0" max="4" step="1"> <br>
         <label for="bsn">BSN Nummer</label>
-        <input type="number" name="bsn" max="999999999"> <br>
+        <input type="number" id="bsn" maxlength="9"> <br>
         <label for="postcode">Postcode</label>
-        <input type="text" name="postcode" id=""> <br>
+        <input type="text" id="postcode" id=""> <br>
         <label for="straat">Straat met huisnummer</label>
-        <input type="text" name="straat" id=""> <br>
-        <label for="stad">Stad</label>
+        <input type="text" id="straat" id=""> <br>
+        <label for="stad">id</label>
         <input type="text" name="" id=""> <br>
         <label for="land">Land</label>
-        <input type="text" name="land"> <br>
         Vakantieland: <br>
-        <label for="1">Duitsland</label>
-        <input type="radio" name="dest" id="1" value="Duitsland"> <br>
-        <label for="2">USA</label>
-        <input type="radio" name="dest" id="2" value="USA"> <br>
-        <label for="3">Abu Dabi</label>
-        <input type="radio" name="dest" id="3" value="Abu Dabi"> <br>
-        <label for="4">Nederland</label>
-        <input type="radio" name="dest" id="4" value="Nederland"> <br>
-        <label for="5">Mexico</label>
-        <input type="radio" name="dest" id="5" value="Mexico"> <br>
-
-        
+        <select name="cars" id="cars">
+            <option value="Nederland">Nederland</option>
+            <option value="Duitsland">Duitsland</option>
+            <option value="USA">USA</option>
+            <option value="Japan">Japan</option>
+          </select>
+        <br>        
         <input type="submit" value="Boek nu">
     </form>
 </body>
