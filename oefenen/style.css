@@ -5,11 +5,13 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 80%;
     margin: 4px auto;
+    background-color: aquamarine;
     
 }
 
 section {
-    margin: 4px auto
+    margin: 4px auto;
+    background-color: antiquewhite;
 }
 
 h2 {
@@ -17,6 +19,7 @@ h2 {
 }
 .one {
     color: red;
+    background-color: black;
 }
 .border {
     border: 2px double red;
@@ -24,6 +27,19 @@ h2 {
 .bordertwo {
     border-width: 10px 2px 3px 4px; /*per zijde kan je aanpassen*/
     border-style: solid double;
-    border-color: aquamarine;
+    border-color: darkblue;
     border-radius: 30% 100% 20% 1%;
 }
+.bordertree {
+    border-left: 3px;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.backimg {
+    background-image: url(steam.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+}
+
