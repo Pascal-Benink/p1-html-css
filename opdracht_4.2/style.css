@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 h1 {
     font-size: 24px;
@@ -25,6 +26,7 @@ p {
 .one {
     font-weight: bold;
     color: red;
+    font-size: 3.3vh;
 }
 a {
     color: #8A2BE2;
@@ -34,11 +36,12 @@ header {
     background-image: url(./img/steam.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 3.3vh;
     color: white;
+    size: 33vh
 }
 .header {
     color: red;
+    font-size: 6.6vh
 }
 img {
     max-width: 50%;
