@@ -53,8 +53,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h2 {
-  font-weight: 900;
+h1 h2 h3 h4 {
+  font-weight: bold;
+
 }
 footer {
   background-color: #00a8c7;
