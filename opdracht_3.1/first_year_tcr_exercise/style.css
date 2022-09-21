@@ -2,12 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Goldman", cursive;
 }
 html {
   font-size: 62.5%;
-}
-body {
-  font-family: "Goldman", cursive;
 }
 
 nav {
@@ -64,7 +62,8 @@ footer {
 
 }
 section {
-  size: 100vh;
+  height: 100vh;
+  font-size: large;
 }
 h1 {
   font-size: 8rem;
