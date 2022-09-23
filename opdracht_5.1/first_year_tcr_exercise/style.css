@@ -57,9 +57,10 @@ h1 h2 h3 h4 {
 footer {
   background-color: #00a8c7;
   text-align: center;
-  font-size: 6rem;
+  font-size: 5rem;
   color: white;
-  height: 20vh;
+  height: 15vh;
+  padding-top: 3rem;
 
 }
 section {
