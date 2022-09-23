@@ -10,7 +10,7 @@ html {
 
 nav {
   display: flex;
-  width: 100%;
+  width: 100vw;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
