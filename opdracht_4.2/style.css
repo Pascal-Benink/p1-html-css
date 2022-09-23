@@ -7,18 +7,18 @@ html {
     font-size: 62,5%;
 }
 h1 {
-    font-size: 24px;
+    font-size: 3rem;
     color: blue;
     font-weight: bold;
     font-style: oblique;
 }
 h2 {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #0000ff;
     font-weight: bold;
 }
 h3 {
-    font-size: 16px;
+    font-size: 1rem;
     color: teal;
     font-weight: bold;
 }
@@ -28,7 +28,7 @@ p {
 .one {
     font-weight: bold;
     color: red;
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 a {
     color: #8A2BE2;
@@ -39,7 +39,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    size: 33vh;
     height: 40vh;
 }
 .header {
