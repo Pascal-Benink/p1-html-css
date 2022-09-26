@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 html {
-    font-size: 62,5%;
+    font-size: 62.5%;
 }
 h1 {
     font-size: 3rem;
@@ -38,8 +38,9 @@ header {
     background-image: url(./img/steam.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     color: white;
-    height: 40vh;
+    height: 33vh;
 }
 .header {
     color: red;
