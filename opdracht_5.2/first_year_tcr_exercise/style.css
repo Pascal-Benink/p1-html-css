@@ -116,18 +116,3 @@ p {
   top: 10vh;
   right: 0vh;
 }
-
-.dropbtn {
-  padding-right: 11vw;
-}
-
-.dropdown-content a {
-  color: #00a8c7;
-  font-size: 2.5rem;
-  padding: 0.8rem 1rem;
-  display: block;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
