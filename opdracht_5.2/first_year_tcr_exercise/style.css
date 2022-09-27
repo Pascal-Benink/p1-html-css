@@ -107,3 +107,24 @@ p {
 .logo {
   width: 24vw;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E9E9E9;
+  z-index: 1; 
+  min-width: 10vw;
+}
+.dropdown-content a {
+  color: #00a8c7;
+  padding: 0.8rem 1rem 0rem 0.2rem;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn{
+  background-color: #E9E9E9;
+  color: #00a8c7;
+  padding: 0.5rem 2rem;
+}
