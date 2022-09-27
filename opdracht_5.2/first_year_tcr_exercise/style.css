@@ -107,12 +107,3 @@ p {
 .logo {
   width: 24vw;
 }
-.dropdown-content{ 
-  display: none;
-  background-color: #E9E9E9;
-  min-width: 20vw;
-  z-index: 1;
-  position: absolute;
-  top: 10vh;
-  right: 0vh;
-}
