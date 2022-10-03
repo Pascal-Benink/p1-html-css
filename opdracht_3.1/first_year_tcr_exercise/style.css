@@ -116,8 +116,6 @@ p {
 }
 .dropdown-content a {
   color: #00a8c7;
-  padding: 0.8rem 1rem 0rem 0.2rem;
-  display: flex;
 }
 .dropdown:hover .dropdown-content {
   display: flex;
