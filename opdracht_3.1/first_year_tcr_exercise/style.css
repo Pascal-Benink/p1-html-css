@@ -108,8 +108,7 @@ p {
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
+  display: flex;
   background-color: #E9E9E9;
   z-index: 1; 
   min-width: 10vw;
@@ -117,10 +116,10 @@ p {
 .dropdown-content a {
   color: #00a8c7;
   padding: 0.8rem 1rem 0rem 0.2rem;
-  display: block;
+  display: flex;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
 }
 .dropdown:hover .dropbtn{
   background-color: #E9E9E9;
