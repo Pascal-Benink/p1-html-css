@@ -20,6 +20,11 @@ nav {
   justify-content: space-between;
   position: fixed;
 }
+.logo {
+  width: 53vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
 nav ul {
   display: flex;
   align-items: center;
@@ -61,12 +66,10 @@ h2 {
   font-size: 5rem;
   padding-top: 20vh;
 }
-
 body {
   position: relative;
   min-height: 100vh;
 }
-
 footer {
   background-color: #00a8c7;
   text-align: center;
@@ -89,24 +92,10 @@ h1 {
 } 
 img {
   width: 53vw;
-  float: left;
-  padding-left: 10vw;
-  padding-right: 10vw;
 }
-p {
-  padding-top: 15vh;
-  padding-right: 10vw;
-  padding-left: 10vw;
-}
-
 .right {
-  float: right;
   padding-top: 10vh;
 }
-.logo {
-  width: 24vw;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
