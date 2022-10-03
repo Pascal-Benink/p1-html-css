@@ -116,10 +116,11 @@ p {
 }
 .dropdown-content a {
   color: #00a8c7;
+  padding: 0.8rem 1rem 0rem 0.2rem;
+  display: block;
 }
 .dropdown:hover .dropdown-content {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 .dropdown:hover .dropbtn{
   background-color: #E9E9E9;
