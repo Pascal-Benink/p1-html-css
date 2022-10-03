@@ -75,10 +75,7 @@ body {
 p {
   font-size: 2rem
 }
-section {
-  position: flex;
-  flex-direction: row;
-}
+
 footer {
   background-color: #00a8c7;
   text-align: center;
