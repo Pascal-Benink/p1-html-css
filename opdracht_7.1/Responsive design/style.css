@@ -22,7 +22,7 @@
     align-items: center;
     padding-left: 5vw;
   }
-  @media only screen and (min-width: 992px ) {
+  @media only screen and (max-width: 30000px ) {
     .one {
       background-color: #F9CA22;
     }
@@ -34,6 +34,48 @@
       }
     .four {
         background-color: #EA4D4B;
+        color: #FFFFFF;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .one {
+      background-color: #FE4657;
+      color: #FFFFFF;
+    }
+    .two {
+        background-color: #5352EC;
+        color: #FFFFFF;
+      }
+    .three {
+        background-color: #3742F9;
+        color: #FFFFFF;
+      }
+    .four {
+        background-color: #FF6B81;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 576px ) {
+    .one {
+      background-color: #686DE0;
+      color: #FFFFFF;
+      text-align: center;
+    }
+    .two {
+        background-color: #7ED6DF;
+        color: #FFFFFF;
+        text-align: center;
+      }
+    .three {
+        background-color: #E056FD;
+        color: #FFFFFF;
+        text-align: center;
+      }
+    .four {
+        background-color: #30336A;
         color: #FFFFFF;
     }
   }
