@@ -87,17 +87,17 @@ footer {
   padding-top: 3rem;
   width: 100vw;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #E9E9E9;
   z-index: 1; 
-  min-width: 7.5vw;
+  min-width: 7.4vw;
 }
 .dropdown-content a {
   color: #00a8c7;
   padding: 0.8rem 1rem 0rem 0.2rem;
-  display: block;
 }
 .dropdown:hover .dropdown-content {
   display: flex;
