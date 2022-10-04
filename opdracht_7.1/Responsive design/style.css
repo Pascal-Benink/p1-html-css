@@ -22,7 +22,6 @@
     align-items: center;
     padding-left: 5vw;
   }
-  @media only screen and (max-width: 30000px ) {
     .one {
       background-color: #F9CA22;
     }
@@ -36,7 +35,6 @@
         background-color: #EA4D4B;
         color: #FFFFFF;
     }
-  }
 
   @media only screen and (max-width: 768px) {
     .one {
