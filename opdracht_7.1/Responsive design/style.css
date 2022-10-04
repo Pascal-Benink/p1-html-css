@@ -9,7 +9,7 @@
   body {
     font-size: 2rem;
   }
-  header {
+  nav {
     height: 10vh;
   }
   section {
@@ -17,7 +17,7 @@
     height: 30vh;
     padding-left: 5vw;
   }
-  header {
+  nav {
     display: flex;
     align-items: center;
     padding-left: 5vw;
@@ -34,6 +34,12 @@
     .four {
         background-color: #EA4D4B;
         color: #FFFFFF;
+    }
+    .tel {
+        color: #EA4D4B;
+        height: 2rem;
+        width: 2rem;
+        background-color: #EA4D4B;
     }
 
   @media only screen and (max-width: 768px) {
@@ -55,6 +61,12 @@
         display: flex;
         justify-content: center;
     }
+    .tel {
+        color: #FF6B81;
+        height: 2rem;
+        width: 2rem;
+        background-color: #FF6B81;
+    }
   }
   @media only screen and (max-width: 576px ) {
     .one {
@@ -75,5 +87,13 @@
     .four {
         background-color: #30336A;
         color: #FFFFFF;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .tel {
+        color: white;
+        height: 2rem;
+        width: 2rem;
+        background-color: white;
     }
   }
