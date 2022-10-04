@@ -22,8 +22,9 @@ a {
     display: flex;
     justify-content: space-evenly;
 }
-.flex2 {
+.item2 {
     display: flex;
-    justify-content: space-evenly;
-    min-width: 50vw;
+    justify-content: space-between;
+    min-width: 40vw;
 }
+
