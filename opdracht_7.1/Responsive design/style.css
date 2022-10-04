@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 2rem;
+  }
+  header {
+    height: 10vh;
+  }
+  section {
+    padding-top: 2rem;
+    height: 30vh;
+    padding-left: 5vw;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+  }
+  @media only screen and (min-width: 992px ) {
+    .one {
+      background-color: #F9CA22;
+    }
+    .two {
+        background-color: #F0922B;
+      }
+    .three {
+        background-color: #69B04C;
+      }
+    .four {
+        background-color: #EA4D4B;
+        color: #FFFFFF;
+    }
+  }
