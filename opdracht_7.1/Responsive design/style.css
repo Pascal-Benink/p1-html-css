@@ -90,6 +90,9 @@
         display: flex;
         justify-content: space-between;
     }
+    .four nav {
+      padding: 0rem 2rem;
+    }
     .tel {
         color: white;
         height: 2rem;
