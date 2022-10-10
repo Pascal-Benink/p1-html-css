@@ -181,12 +181,16 @@
     nav ul {
       display: none;
     }
-    body {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-    }
     h2 {
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+    .canvasapp {
+      display: none;
+    }
+    .gegevens {
       text-align: center;
     }
   }
@@ -197,15 +201,22 @@
     nav ul {
       display: none;
     }
-    body {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-    }
     h2 {
       text-align: center;
     }
-   p {
-    text-align: center;
-   }
+    p {
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+    .canvasapp {
+      display: none;
+    }
+    .canvas {
+      display: none;
+    }
+    .gegevens {
+      text-align: center;
+    }
   }
