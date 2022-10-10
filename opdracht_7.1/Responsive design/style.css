@@ -95,6 +95,7 @@
     }
     .tel {
         color: white;
+        margin-right: 2rem;
         height: 2rem;
         width: 2rem;
         background-color: white;
