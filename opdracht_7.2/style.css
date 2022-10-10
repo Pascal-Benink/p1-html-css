@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-evenly ;
     list-style-type: none;
-    width: 100vw;
+    width: 88vw;
   }
   nav li {
     font-size: 2rem;
@@ -176,7 +176,7 @@
 
   @media only screen and (min-width: 768px) and (max-width: 991px ) {
     nav img {
-      width: 10vw;
+      width: 11vw;
     }
     nav ul {
       display: none;
@@ -192,7 +192,7 @@
   }
   @media only screen and (max-width: 767px ) {
     nav img {
-      width: 10vw;
+      width: 11vw;
     }
     nav ul {
       display: none;

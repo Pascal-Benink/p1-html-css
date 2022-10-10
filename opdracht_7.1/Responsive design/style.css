@@ -21,25 +21,34 @@
     align-items: center;
     padding: 0vh 2.5vw;
   }
-    .one {
-      background-color: #F9CA22;
+  .one {
+    background-color: #686DE0;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .two {
+      background-color: #7ED6DF;
+      color: #FFFFFF;
+      text-align: center;
     }
-    .two {
-        background-color: #F0922B;
-      }
-    .three {
-        background-color: #69B04C;
-      }
-    .four {
-        background-color: #EA4D4B;
-        color: #FFFFFF;
+  .three {
+      background-color: #E056FD;
+      color: #FFFFFF;
+      text-align: center;
     }
-    .tel {
-        color: #EA4D4B;
-        height: 2rem;
-        width: 2rem;
-        background-color: #EA4D4B;
-    }
+  .four {
+      background-color: #30336A;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: space-between;
+      padding: 0rem 2rem;
+  }
+  .tel {
+      color: white;
+      height: 2rem;
+      width: 2rem;
+      background-color: white;
+  }
 
   @media only screen and (min-width: 768px) and (max-width: 991px ) {
     .one {
@@ -67,33 +76,24 @@
         background-color: #FF6B81;
     }
   }
-  @media only screen and (max-width: 767px ) {
+  @media only screen and (min-width: 992px) {
     .one {
-      background-color: #686DE0;
-      color: #FFFFFF;
-      text-align: center;
+      background-color: #F9CA22;
     }
     .two {
-        background-color: #7ED6DF;
-        color: #FFFFFF;
-        text-align: center;
+      background-color: #F0922B;
       }
     .three {
-        background-color: #E056FD;
-        color: #FFFFFF;
-        text-align: center;
+      background-color: #69B04C;
       }
     .four {
-        background-color: #30336A;
-        color: #FFFFFF;
-        display: flex;
-        justify-content: space-between;
-        padding: 0rem 2rem;
+      background-color: #EA4D4B;
+      color: #FFFFFF;
     }
     .tel {
-        color: white;
-        height: 2rem;
-        width: 2rem;
-        background-color: white;
+      color: #EA4D4B;
+      height: 2rem;
+      width: 2rem;
+      background-color: #EA4D4B;
     }
   }
