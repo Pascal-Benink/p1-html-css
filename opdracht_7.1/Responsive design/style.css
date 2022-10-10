@@ -14,12 +14,12 @@
   }
   section {
     height: 30vh;
-    padding: 2rem 5vw;
+    padding: 2rem 2.5vw;
   }
   nav {
     display: flex;
     align-items: center;
-    padding-left: 5vw;
+    padding: 0vh 2.5vw;
   }
     .one {
       background-color: #F9CA22;
