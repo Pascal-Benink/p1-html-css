@@ -42,7 +42,7 @@
         background-color: #EA4D4B;
     }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) and (max-width: 991px ) {
     .one {
       background-color: #FE4657;
       color: #FFFFFF;
@@ -68,7 +68,7 @@
         background-color: #FF6B81;
     }
   }
-  @media only screen and (max-width: 576px ) {
+  @media only screen and (max-width: 767px ) {
     .one {
       background-color: #686DE0;
       color: #FFFFFF;
