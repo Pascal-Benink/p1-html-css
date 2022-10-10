@@ -89,13 +89,10 @@
         color: #FFFFFF;
         display: flex;
         justify-content: space-between;
-    }
-    .four nav {
-      padding: 0rem 2rem;
+        padding: 0rem 2rem;
     }
     .tel {
         color: white;
-        margin-right: 2rem;
         height: 2rem;
         width: 2rem;
         background-color: white;
