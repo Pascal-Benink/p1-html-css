@@ -22,7 +22,7 @@
   }
   nav ul {  
     display: flex;
-    justify-content: flex-end ;
+    justify-content: space-evenly ;
     list-style-type: none;
     width: 100vw;
   }
@@ -175,9 +175,37 @@
   }
 
   @media only screen and (min-width: 768px) and (max-width: 991px ) {
+    nav img {
+      width: 10vw;
+    }
+    nav ul {
+      display: none;
+    }
+    body {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
     h2 {
       text-align: center;
     }
   }
   @media only screen and (max-width: 767px ) {
+    nav img {
+      width: 10vw;
+    }
+    nav ul {
+      display: none;
+    }
+    body {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+    h2 {
+      text-align: center;
+    }
+   p {
+    text-align: center;
+   }
   }
