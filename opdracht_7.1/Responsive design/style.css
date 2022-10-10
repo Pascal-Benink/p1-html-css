@@ -13,9 +13,8 @@
     height: 10vh;
   }
   section {
-    padding-top: 2rem;
     height: 30vh;
-    padding-left: 5vw;
+    padding: 2rem 5vw;
   }
   nav {
     display: flex;
