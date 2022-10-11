@@ -179,7 +179,7 @@
       width: 11vw;
     }
     nav ul {
-      display: none;
+      display: grid;
     }
     h2 {
       text-align: center;
@@ -199,7 +199,15 @@
       width: 11vw;
     }
     nav ul {
+      display: grid;
+    }
+    .dropdown-content {
       display: none;
+      position: absolute;
+      background-color: black;
+      z-index: 2; 
+      text-align: left;
+      padding: 1rem;
     }
     h2 {
       text-align: center;
@@ -219,4 +227,6 @@
     .gegevens {
       text-align: center;
     }
+  }
+  @media only screen and (min-width: 992px ) {
   }
