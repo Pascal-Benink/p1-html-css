@@ -28,6 +28,10 @@
     background-color: #4c6e97;
     border: none;
   }
+  button:hover {
+    transition-duration: 0.4s;
+    background-color: #131e27;
+  }
   .travel {
     background-image: url(./img/landing-page.jpg);
     background-repeat: no-repeat;
