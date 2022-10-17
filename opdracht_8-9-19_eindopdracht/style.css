@@ -33,18 +33,101 @@
     background-size: cover;
     height: 110vh;
     color: white;
+    background-position: center;
   }
   .time {
     color: white;
     background-image: url(./img/new-york-page.png);
     background-repeat: no-repeat;   
     background-size: cover;
+    background-position: center;
     height: 110vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .time h2 {
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 5rem;
+  }
+  .time p {
+    padding-left: 2rem;
+    font-size: 3rem;
   }
   .perfect {
     color: white;
     background-color: #131e27;
   }
-  form {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/contact-mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    background-position: center;
+  }
+  .form button {
+    width: 50vw;
+    border-radius: 0rem 0rem 1rem 1rem;
+    height: 5vh;
     color: white;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #131e27;
+    width: 50vw;
+    border-radius: 1rem 1rem 0rem 0rem;
+  }
+  .bot {
+    margin-bottom: 2rem;
+  }
+  form input{
+    margin-top: 2rem;
+  }
+  .hocks {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+  .hokje {
+    max-width: 30vw;
+    background-color: #131e27;
+    
+  }
+  .hokje p {
+    background-color: white;
+  }
+  .hokje h1 {
+    color: white;
+  }
+  .hokje img {
+    width: 6vw;
+    height: 6vh;
+  }
+  footer {
+    background-color: #131e27;
+  }
+
+  @media only screen and (min-width: 992px ) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      min-width: 50vw;
+    }
   }
