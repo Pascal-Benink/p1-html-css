@@ -10,10 +10,8 @@
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
   }
-  nav img{
-    margin-left: 4vw;
-  }
   nav {
+    padding-top: 3rem;
     background-color: #131e27;
     color: white;
     text-align: center;
@@ -30,10 +28,6 @@
   button {
     background-color: #4c6e97;
     border: none;
-  }
-  button:hover {
-    transition-duration: 0.4s;
-    background-color: #131e27;
   }
   .travel {
     background-image: url(./img/landing-page.jpg);
