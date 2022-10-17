@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  nav {
+    background-color: #131e27;
+    color: white;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  button {
+    background-color: #4c6e97;
+  }
+  .travel {
+    background-image: url(./img/landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    color: white;
+  }
+  .time {
+    color: white;
+    background-image: url(./img/new-york-page.png);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    height: 110vh;
+  }
+  .perfect {
+    color: white;
+    background-color: #131e27;
+  }
+  form {
+    color: white;
+  }
