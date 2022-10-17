@@ -10,6 +10,9 @@
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
   }
+  nav img{
+    margin-left: 4vw;
+  }
   nav {
     background-color: #131e27;
     color: white;
