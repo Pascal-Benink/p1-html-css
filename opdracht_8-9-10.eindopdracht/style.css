@@ -10,6 +10,12 @@
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
   }
+  h1 h2 h3 h4{
+    font-family: 'Roboto', sans-serif;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
   nav {
     padding-top: 3rem;
     background-color: #131e27;
@@ -137,15 +143,17 @@
     margin-top: 5vh;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
+    
   }
   .hokje p {
     background-color: white;
-    padding-bottom: 3rem;
+    padding: 1rem 2rem;
   }
   .hokje h1 {
     background-color: white;
     text-align: center;
-    padding: 3vw;
+    padding: 1.2rem;
+    padding-bottom: 1rem;
   }
   .hokje img {
     width: 6vw;
